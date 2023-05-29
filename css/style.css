@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: 'Hanken Grotesk', sans-serif;
+    color: white;
+}
+.titulo p, .pmedia, .descricao p{
+    color: rgb(180, 180, 180);
+}
+.titulo p{
+    font-size: 21.5px;
+}
+.descricao{
+    text-align: center;
+}
+.titulodescricao{
+    font-size: 25px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1{
+    background-color: #4936f2 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    gap: 30px;
+}
+.media{
+    background: rgb(74,36,207); 
+    background: linear-gradient(180deg, rgba(74,36,207,1) 0%, rgba(70,51,237,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+.nota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+}
+.divdescricao{
+    gap: 100px;
+    text-align: center;
+}
+
+
+.div2{
+    box-shadow: 20%;
+}
+
